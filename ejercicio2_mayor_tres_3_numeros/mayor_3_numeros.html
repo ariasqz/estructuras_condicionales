@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 2 condicionales</title>
+</head>
+<body>
+   
+    <script>
+     //hallar el mayor de 3 numeros
+    
+    let a, b, c, mayor;
+
+    //input
+    a = prompt("digite el valor de a: ");
+    b = prompt("digite el valor de b: ");
+    c = prompt("digite el valor de c: ");
+
+    //processing
+
+    if(a>b)
+    {
+        if(a<c)
+
+        {
+            mayor = a;
+        }
+        else
+        {
+            mayor = c;
+        }
+    }
+    else
+    {
+        if(b>c)
+        {
+            mayor = b;
+        }
+        else
+        {
+            mayor = c;
+        }
+    }
+     // output
+
+     alert("El numero mayor es: " + mayor);
+    </script>
+    
+</body>
+</html>
